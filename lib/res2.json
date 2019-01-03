@@ -1,0 +1,648 @@
+{
+    "count": 10,
+    "filters": {
+        "matchday": "21"
+    },
+    "competition": {
+        "id": 2021,
+        "area": {
+            "id": 2072,
+            "name": "England"
+        },
+        "name": "Premier League",
+        "code": "PL",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2019-01-02T20:48:26Z"
+    },
+    "matches": [
+        {
+            "id": 233228,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-01T12:30:00Z",
+            "status": "FINISHED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-01T16:14:09Z",
+            "score": {
+                "winner": "AWAY_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 62,
+                "name": "Everton FC"
+            },
+            "awayTeam": {
+                "id": 338,
+                "name": "Leicester City FC"
+            },
+            "referees": [
+                {
+                    "id": 11551,
+                    "name": "Martin Atkinson",
+                    "nationality": null
+                },
+                {
+                    "id": 11547,
+                    "name": "Stephen Child",
+                    "nationality": null
+                },
+                {
+                    "id": 11530,
+                    "name": "Lee Betts",
+                    "nationality": null
+                },
+                {
+                    "id": 11580,
+                    "name": "Anthony Taylor",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233226,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-01T15:00:00Z",
+            "status": "FINISHED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-01T18:39:48Z",
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 4,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 57,
+                "name": "Arsenal FC"
+            },
+            "awayTeam": {
+                "id": 63,
+                "name": "Fulham FC"
+            },
+            "referees": [
+                {
+                    "id": 11503,
+                    "name": "Graham Scott",
+                    "nationality": null
+                },
+                {
+                    "id": 11586,
+                    "name": "Richard West",
+                    "nationality": null
+                },
+                {
+                    "id": 11424,
+                    "name": "Neil Davies",
+                    "nationality": null
+                },
+                {
+                    "id": 11543,
+                    "name": "Roger East",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233230,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-01T17:30:00Z",
+            "status": "FINISHED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T12:30:03Z",
+            "score": {
+                "winner": "AWAY_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 3
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 3
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 715,
+                "name": "Cardiff City FC"
+            },
+            "awayTeam": {
+                "id": 73,
+                "name": "Tottenham Hotspur FC"
+            },
+            "referees": [
+                {
+                    "id": 11487,
+                    "name": "Kevin Friend",
+                    "nationality": null
+                },
+                {
+                    "id": 11564,
+                    "name": "Stuart Burt",
+                    "nationality": null
+                },
+                {
+                    "id": 11444,
+                    "name": "Matthew Wilkes",
+                    "nationality": null
+                },
+                {
+                    "id": 11430,
+                    "name": "Simon Hooper",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233223,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T19:45:00Z",
+            "status": "IN_PLAY",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:26Z",
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 76,
+                "name": "Wolverhampton Wanderers FC"
+            },
+            "awayTeam": {
+                "id": 354,
+                "name": "Crystal Palace FC"
+            },
+            "referees": [
+                {
+                    "id": 11543,
+                    "name": "Roger East",
+                    "nationality": null
+                },
+                {
+                    "id": 11595,
+                    "name": "Adrian Holmes",
+                    "nationality": null
+                },
+                {
+                    "id": 11505,
+                    "name": "Derek Eaton",
+                    "nationality": null
+                },
+                {
+                    "id": 11479,
+                    "name": "Lee Mason",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233227,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T19:45:00Z",
+            "status": "IN_PLAY",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:26Z",
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 61,
+                "name": "Chelsea FC"
+            },
+            "awayTeam": {
+                "id": 340,
+                "name": "Southampton FC"
+            },
+            "referees": [
+                {
+                    "id": 11567,
+                    "name": "Jonathan Moss",
+                    "nationality": null
+                },
+                {
+                    "id": 11570,
+                    "name": "Harry Lennard",
+                    "nationality": null
+                },
+                {
+                    "id": 11568,
+                    "name": "Andrew Halliday",
+                    "nationality": null
+                },
+                {
+                    "id": 11430,
+                    "name": "Simon Hooper",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233229,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T19:45:00Z",
+            "status": "IN_PLAY",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:26Z",
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 394,
+                "name": "Huddersfield Town AFC"
+            },
+            "awayTeam": {
+                "id": 328,
+                "name": "Burnley FC"
+            },
+            "referees": [
+                {
+                    "id": 11575,
+                    "name": "Mike Dean",
+                    "nationality": null
+                },
+                {
+                    "id": 11576,
+                    "name": "Darren Cann",
+                    "nationality": null
+                },
+                {
+                    "id": 11431,
+                    "name": "Daniel Robathan",
+                    "nationality": null
+                },
+                {
+                    "id": 11605,
+                    "name": "Michael Oliver",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233231,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T19:45:00Z",
+            "status": "IN_PLAY",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:26Z",
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 563,
+                "name": "West Ham United FC"
+            },
+            "awayTeam": {
+                "id": 397,
+                "name": "Brighton & Hove Albion FC"
+            },
+            "referees": [
+                {
+                    "id": 11443,
+                    "name": "Chris Kavanagh",
+                    "nationality": null
+                },
+                {
+                    "id": 11438,
+                    "name": "Dan Cook",
+                    "nationality": null
+                },
+                {
+                    "id": 98555,
+                    "name": null,
+                    "nationality": null
+                },
+                {
+                    "id": 11585,
+                    "name": "Craig Pawson",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233232,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T19:45:00Z",
+            "status": "SCHEDULED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:06Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 1044,
+                "name": "AFC Bournemouth"
+            },
+            "awayTeam": {
+                "id": 346,
+                "name": "Watford FC"
+            },
+            "referees": [
+                {
+                    "id": 11556,
+                    "name": "David Coote",
+                    "nationality": null
+                },
+                {
+                    "id": 11488,
+                    "name": "Simon Bennett",
+                    "nationality": null
+                },
+                {
+                    "id": 11531,
+                    "name": "Marc Perry",
+                    "nationality": null
+                },
+                {
+                    "id": 11503,
+                    "name": "Graham Scott",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233225,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-02T20:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T20:48:06Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 67,
+                "name": "Newcastle United FC"
+            },
+            "awayTeam": {
+                "id": 66,
+                "name": "Manchester United FC"
+            },
+            "referees": [
+                {
+                    "id": 11610,
+                    "name": "Andre Marriner",
+                    "nationality": null
+                },
+                {
+                    "id": 11611,
+                    "name": "Scott Ledger",
+                    "nationality": null
+                },
+                {
+                    "id": 11504,
+                    "name": "Simon Long",
+                    "nationality": null
+                },
+                {
+                    "id": 11494,
+                    "name": "Stuart Attwell",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "id": 233224,
+            "season": {
+                "id": 151,
+                "startDate": "2018-08-10",
+                "endDate": "2019-05-12",
+                "currentMatchday": 21
+            },
+            "utcDate": "2019-01-03T20:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 21,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-01-02T16:10:05Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 65,
+                "name": "Manchester City FC"
+            },
+            "awayTeam": {
+                "id": 64,
+                "name": "Liverpool FC"
+            },
+            "referees": []
+        }
+    ]
+}
