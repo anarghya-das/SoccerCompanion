@@ -1,648 +1,366 @@
 {
-    "count": 10,
-    "filters": {
-        "matchday": "21"
-    },
+    "count": 18,
+    "filters": {},
     "competition": {
-        "id": 2021,
+        "id": 2003,
         "area": {
-            "id": 2072,
-            "name": "England"
+            "id": 2163,
+            "name": "Netherlands"
         },
-        "name": "Premier League",
-        "code": "PL",
+        "name": "Eredivisie",
+        "code": "DED",
         "plan": "TIER_ONE",
-        "lastUpdated": "2019-01-02T20:48:26Z"
+        "lastUpdated": "2018-12-23T19:45:07Z"
     },
-    "matches": [
+    "season": {
+        "id": 156,
+        "startDate": "2018-08-10",
+        "endDate": "2019-05-12",
+        "currentMatchday": 18,
+        "winner": null
+    },
+    "teams": [
         {
-            "id": 233228,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 668,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-01T12:30:00Z",
-            "status": "FINISHED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-01T16:14:09Z",
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 1
-                },
-                "halfTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 0
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 62,
-                "name": "Everton FC"
-            },
-            "awayTeam": {
-                "id": 338,
-                "name": "Leicester City FC"
-            },
-            "referees": [
-                {
-                    "id": 11551,
-                    "name": "Martin Atkinson",
-                    "nationality": null
-                },
-                {
-                    "id": 11547,
-                    "name": "Stephen Child",
-                    "nationality": null
-                },
-                {
-                    "id": 11530,
-                    "name": "Lee Betts",
-                    "nationality": null
-                },
-                {
-                    "id": 11580,
-                    "name": "Anthony Taylor",
-                    "nationality": null
-                }
-            ]
+            "name": "VVV Venlo",
+            "shortName": "VVV Venlo",
+            "tla": "VVV",
+            "crestUrl": "",
+            "address": "Kaldenkerkerweg 182 Venlo 5915 AH",
+            "phone": "+31 (77) 351 5806",
+            "website": "http://www.vvv-venlo.nl",
+            "email": "info@vvv-venlo.nl",
+            "founded": 1903,
+            "clubColors": "Yellow / Black",
+            "venue": "Seacon Stadion De Koel",
+            "lastUpdated": "2018-12-17T07:24:12Z"
         },
         {
-            "id": 233226,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 670,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-01T15:00:00Z",
-            "status": "FINISHED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-01T18:39:48Z",
-            "score": {
-                "winner": "HOME_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 4,
-                    "awayTeam": 1
-                },
-                "halfTime": {
-                    "homeTeam": 1,
-                    "awayTeam": 0
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 57,
-                "name": "Arsenal FC"
-            },
-            "awayTeam": {
-                "id": 63,
-                "name": "Fulham FC"
-            },
-            "referees": [
-                {
-                    "id": 11503,
-                    "name": "Graham Scott",
-                    "nationality": null
-                },
-                {
-                    "id": 11586,
-                    "name": "Richard West",
-                    "nationality": null
-                },
-                {
-                    "id": 11424,
-                    "name": "Neil Davies",
-                    "nationality": null
-                },
-                {
-                    "id": 11543,
-                    "name": "Roger East",
-                    "nationality": null
-                }
-            ]
+            "name": "SBV Excelsior",
+            "shortName": "Excelsior",
+            "tla": "EXC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f5/SBV_Excelsior_logo.png",
+            "address": "Honingerdijk 110 Rotterdam 3062 NX",
+            "phone": "+31 (10) 404 6041",
+            "website": "http://www.sbvexcelsior.nl",
+            "email": "info@sc-excelsior.nl",
+            "founded": 1902,
+            "clubColors": "Red / Black",
+            "venue": "Van Donge & De Roo Stadion",
+            "lastUpdated": "2018-12-17T07:24:13Z"
         },
         {
-            "id": 233230,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 671,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-01T17:30:00Z",
-            "status": "FINISHED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T12:30:03Z",
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 3
-                },
-                "halfTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 3
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 715,
-                "name": "Cardiff City FC"
-            },
-            "awayTeam": {
-                "id": 73,
-                "name": "Tottenham Hotspur FC"
-            },
-            "referees": [
-                {
-                    "id": 11487,
-                    "name": "Kevin Friend",
-                    "nationality": null
-                },
-                {
-                    "id": 11564,
-                    "name": "Stuart Burt",
-                    "nationality": null
-                },
-                {
-                    "id": 11444,
-                    "name": "Matthew Wilkes",
-                    "nationality": null
-                },
-                {
-                    "id": 11430,
-                    "name": "Simon Hooper",
-                    "nationality": null
-                }
-            ]
+            "name": "Heracles Almelo",
+            "shortName": "Heracles",
+            "tla": "HER",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d8/Heracles_Almelo.svg",
+            "address": "Stadionlaan 1 Almelo 7606 JZ",
+            "phone": "+31 (546) 817070",
+            "website": "http://www.heracles.nl",
+            "email": "info@heracles.nl",
+            "founded": 1903,
+            "clubColors": "Black / White",
+            "venue": "Polman Stadion",
+            "lastUpdated": "2018-12-17T07:24:14Z"
         },
         {
-            "id": 233223,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 672,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T19:45:00Z",
-            "status": "IN_PLAY",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:26Z",
-            "score": {
-                "winner": "DRAW",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 0
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 76,
-                "name": "Wolverhampton Wanderers FC"
-            },
-            "awayTeam": {
-                "id": 354,
-                "name": "Crystal Palace FC"
-            },
-            "referees": [
-                {
-                    "id": 11543,
-                    "name": "Roger East",
-                    "nationality": null
-                },
-                {
-                    "id": 11595,
-                    "name": "Adrian Holmes",
-                    "nationality": null
-                },
-                {
-                    "id": 11505,
-                    "name": "Derek Eaton",
-                    "nationality": null
-                },
-                {
-                    "id": 11479,
-                    "name": "Lee Mason",
-                    "nationality": null
-                }
-            ]
+            "name": "Willem II Tilburg",
+            "shortName": "Willem II",
+            "tla": "WII",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/de/7/7c/Willem_II_Tilburg.svg",
+            "address": "Goirleseweg 34 Tilburg 5026 PC",
+            "phone": "+31 (013) 5490590",
+            "website": "http://www.willem-II.nl",
+            "email": "willem-ii@willem-ii.nl",
+            "founded": 1896,
+            "clubColors": "Red / White / Blue",
+            "venue": "Koning Willem II Stadion",
+            "lastUpdated": "2018-12-17T07:24:16Z"
         },
         {
-            "id": 233227,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 673,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T19:45:00Z",
-            "status": "IN_PLAY",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:26Z",
-            "score": {
-                "winner": "DRAW",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 0
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 61,
-                "name": "Chelsea FC"
-            },
-            "awayTeam": {
-                "id": 340,
-                "name": "Southampton FC"
-            },
-            "referees": [
-                {
-                    "id": 11567,
-                    "name": "Jonathan Moss",
-                    "nationality": null
-                },
-                {
-                    "id": 11570,
-                    "name": "Harry Lennard",
-                    "nationality": null
-                },
-                {
-                    "id": 11568,
-                    "name": "Andrew Halliday",
-                    "nationality": null
-                },
-                {
-                    "id": 11430,
-                    "name": "Simon Hooper",
-                    "nationality": null
-                }
-            ]
+            "name": "SC Heerenveen",
+            "shortName": "Heerenveen",
+            "tla": "HER",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e7/SC_Heerenveen.svg",
+            "address": "Abe Lenstra Boulevard 19 Heerenveen 8448 JA",
+            "phone": "+31 (513) 612100",
+            "website": "http://www.sc-heerenveen.nl",
+            "email": "info@sc-heerenveen.nl",
+            "founded": 1920,
+            "clubColors": "Blue / White",
+            "venue": "Abe Lenstra Stadion",
+            "lastUpdated": "2018-12-17T07:24:17Z"
         },
         {
-            "id": 233229,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 674,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T19:45:00Z",
-            "status": "IN_PLAY",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:26Z",
-            "score": {
-                "winner": "DRAW",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 0
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 394,
-                "name": "Huddersfield Town AFC"
-            },
-            "awayTeam": {
-                "id": 328,
-                "name": "Burnley FC"
-            },
-            "referees": [
-                {
-                    "id": 11575,
-                    "name": "Mike Dean",
-                    "nationality": null
-                },
-                {
-                    "id": 11576,
-                    "name": "Darren Cann",
-                    "nationality": null
-                },
-                {
-                    "id": 11431,
-                    "name": "Daniel Robathan",
-                    "nationality": null
-                },
-                {
-                    "id": 11605,
-                    "name": "Michael Oliver",
-                    "nationality": null
-                }
-            ]
+            "name": "PSV",
+            "shortName": "PSV",
+            "tla": "PSV",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/05/PSV_Eindhoven.svg",
+            "address": "Fredriklaan 10a Eindhoven 5616 NH",
+            "phone": "+31 (040) 2505501",
+            "website": "http://www.psv.nl",
+            "email": "info@psv.nl",
+            "founded": 1913,
+            "clubColors": "Red / White",
+            "venue": "Philips Stadion",
+            "lastUpdated": "2018-12-17T07:24:18Z"
         },
         {
-            "id": 233231,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 675,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T19:45:00Z",
-            "status": "IN_PLAY",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:26Z",
-            "score": {
-                "winner": "DRAW",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": 0,
-                    "awayTeam": 0
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 563,
-                "name": "West Ham United FC"
-            },
-            "awayTeam": {
-                "id": 397,
-                "name": "Brighton & Hove Albion FC"
-            },
-            "referees": [
-                {
-                    "id": 11443,
-                    "name": "Chris Kavanagh",
-                    "nationality": null
-                },
-                {
-                    "id": 11438,
-                    "name": "Dan Cook",
-                    "nationality": null
-                },
-                {
-                    "id": 98555,
-                    "name": null,
-                    "nationality": null
-                },
-                {
-                    "id": 11585,
-                    "name": "Craig Pawson",
-                    "nationality": null
-                }
-            ]
+            "name": "Feyenoord Rotterdam",
+            "shortName": "Feyenoord",
+            "tla": "FEY",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/24/Logo_Feyenoord_Rotterdam.svg",
+            "address": "Van Zandvlietplein 3 Rotterdam 3007 AP",
+            "phone": "+31 (010) 2926888",
+            "website": "http://www.feyenoord.nl",
+            "email": "klantenservice@feyenoord.nl",
+            "founded": 1908,
+            "clubColors": "Red / White / Black",
+            "venue": "Stadion Feijenoord",
+            "lastUpdated": "2018-12-17T07:24:19Z"
         },
         {
-            "id": 233232,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 676,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T19:45:00Z",
-            "status": "SCHEDULED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:06Z",
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 1044,
-                "name": "AFC Bournemouth"
-            },
-            "awayTeam": {
-                "id": 346,
-                "name": "Watford FC"
-            },
-            "referees": [
-                {
-                    "id": 11556,
-                    "name": "David Coote",
-                    "nationality": null
-                },
-                {
-                    "id": 11488,
-                    "name": "Simon Bennett",
-                    "nationality": null
-                },
-                {
-                    "id": 11531,
-                    "name": "Marc Perry",
-                    "nationality": null
-                },
-                {
-                    "id": 11503,
-                    "name": "Graham Scott",
-                    "nationality": null
-                }
-            ]
+            "name": "FC Utrecht",
+            "shortName": "Utrecht",
+            "tla": "UTR",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/48/FC_Utrecht.svg",
+            "address": "Postbus 85159 Utrecht 3508 AD",
+            "phone": "+31 (030) 8885555",
+            "website": "http://www.fc-utrecht.nl",
+            "email": "info@fcutrecht.nl",
+            "founded": 1970,
+            "clubColors": "Red / White",
+            "venue": "Stadion Galgenwaard",
+            "lastUpdated": "2018-12-17T07:24:20Z"
         },
         {
-            "id": 233225,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 677,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-02T20:00:00Z",
-            "status": "SCHEDULED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T20:48:06Z",
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
-            },
-            "homeTeam": {
-                "id": 67,
-                "name": "Newcastle United FC"
-            },
-            "awayTeam": {
-                "id": 66,
-                "name": "Manchester United FC"
-            },
-            "referees": [
-                {
-                    "id": 11610,
-                    "name": "Andre Marriner",
-                    "nationality": null
-                },
-                {
-                    "id": 11611,
-                    "name": "Scott Ledger",
-                    "nationality": null
-                },
-                {
-                    "id": 11504,
-                    "name": "Simon Long",
-                    "nationality": null
-                },
-                {
-                    "id": 11494,
-                    "name": "Stuart Attwell",
-                    "nationality": null
-                }
-            ]
+            "name": "FC Groningen",
+            "shortName": "Groningen",
+            "tla": "GRO",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ef/FC_Groningen.svg",
+            "address": "Boumaboulevard 41 Groningen 9701 BJ",
+            "phone": "+31 (050) 5878787",
+            "website": "http://www.fcgroningen.nl",
+            "email": "info@fcgroningen.nl",
+            "founded": 1921,
+            "clubColors": "Green / White",
+            "venue": "Hitachi Capital Mobility Stadion",
+            "lastUpdated": "2018-12-17T07:24:22Z"
         },
         {
-            "id": 233224,
-            "season": {
-                "id": 151,
-                "startDate": "2018-08-10",
-                "endDate": "2019-05-12",
-                "currentMatchday": 21
+            "id": 678,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "utcDate": "2019-01-03T20:00:00Z",
-            "status": "SCHEDULED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": "Regular Season",
-            "lastUpdated": "2019-01-02T16:10:05Z",
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "halfTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "extraTime": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                },
-                "penalties": {
-                    "homeTeam": null,
-                    "awayTeam": null
-                }
+            "name": "AFC Ajax",
+            "shortName": "Ajax",
+            "tla": "AJA",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/79/Ajax_Amsterdam.svg",
+            "address": "ArenA Boulevard 29 Amsterdam 1101 AX",
+            "phone": "+31 (020) 3111444",
+            "website": "http://www.ajax.nl",
+            "email": "info@ajax.nl",
+            "founded": 1900,
+            "clubColors": "Red / White",
+            "venue": "Johan Cruyff ArenA",
+            "lastUpdated": "2018-12-17T07:24:23Z"
+        },
+        {
+            "id": 679,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "homeTeam": {
-                "id": 65,
-                "name": "Manchester City FC"
+            "name": "SBV Vitesse",
+            "shortName": "Vitesse",
+            "tla": "VIT",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/41/Vitesse_Arnheim.svg",
+            "address": "Batavierenweg 25 Arnhem 6841 HN",
+            "phone": "+31 (026) 8807888",
+            "website": "http://www.vitesse.nl",
+            "email": "info@vitesse.nl",
+            "founded": 1892,
+            "clubColors": "Yellow / Black",
+            "venue": "GelreDome",
+            "lastUpdated": "2018-12-17T07:24:24Z"
+        },
+        {
+            "id": 680,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "awayTeam": {
-                "id": 64,
-                "name": "Liverpool FC"
+            "name": "ADO Den Haag",
+            "shortName": "ADO Den Haag",
+            "tla": "ADO",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/45/ADO_Den_Haag.svg",
+            "address": "Haags Kwartier 55 Den Haag 2491 BM",
+            "phone": "+31 (900) 2364636",
+            "website": "http://www.adodenhaag.nl",
+            "email": "info@adodenhaag.nl",
+            "founded": 1905,
+            "clubColors": "Green / Yellow",
+            "venue": "Cars Jeans Stadion",
+            "lastUpdated": "2018-12-17T07:24:25Z"
+        },
+        {
+            "id": 681,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
             },
-            "referees": []
+            "name": "NAC Breda",
+            "shortName": "NAC Breda",
+            "tla": "NAC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/76/Breda.png",
+            "address": "Postbus 3356 Breda 4800 DJ",
+            "phone": "+31 (900) 62227332",
+            "website": "http://www.nac.nl",
+            "email": "info@nac.nl",
+            "founded": 1912,
+            "clubColors": "Yellow / White / Black",
+            "venue": "Rat Verlegh Stadion",
+            "lastUpdated": "2018-12-17T07:24:26Z"
+        },
+        {
+            "id": 682,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
+            },
+            "name": "AZ",
+            "shortName": "AZ",
+            "tla": "AZ",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/AZ_Alkmaar.svg",
+            "address": "Stadionweg 1 Alkmaar 1812 AZ",
+            "phone": "+31 (072) 5478000",
+            "website": "http://www.az.nl",
+            "email": "info@az.nl",
+            "founded": 1967,
+            "clubColors": "Red / White",
+            "venue": "AFAS Stadion",
+            "lastUpdated": "2018-12-17T07:24:28Z"
+        },
+        {
+            "id": 684,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
+            },
+            "name": "PEC Zwolle",
+            "shortName": "Zwolle",
+            "tla": "ZWO",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/28/PEC_Zwolle_2012.svg",
+            "address": "Stadionplein 1 Zwolle 8025 CP",
+            "phone": "+31 (38) 453 4948",
+            "website": "http://www.peczwolle.nl",
+            "email": "info@peczwolle.nl",
+            "founded": 1910,
+            "clubColors": "Blue / White",
+            "venue": "MAC³PARK Stadion",
+            "lastUpdated": "2018-12-17T07:24:28Z"
+        },
+        {
+            "id": 1913,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
+            },
+            "name": "VBV De Graafschap",
+            "shortName": "Graafschap",
+            "tla": "GRA",
+            "crestUrl": null,
+            "address": "Lijsterbeslaan 101a Doetinchem 7004 GN",
+            "phone": "+31 (314) 368450",
+            "website": "http://www.degraafschap.nl",
+            "email": "info@degraafschap.nl",
+            "founded": 1954,
+            "clubColors": "Blue / White",
+            "venue": "Stadion De Vijverberg",
+            "lastUpdated": "2018-10-15T15:10:36Z"
+        },
+        {
+            "id": 1914,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
+            },
+            "name": "FC Emmen",
+            "shortName": "Emmen",
+            "tla": "EMM",
+            "crestUrl": null,
+            "address": "Meerdijk 65 Emmen 7825 TH",
+            "phone": "+31 (0591) 627332",
+            "website": "http://www.fcemmen.nl",
+            "email": "info@fcemmen.nl",
+            "founded": 1925,
+            "clubColors": "Red / White",
+            "venue": "De Oude Meerdijk",
+            "lastUpdated": "2018-10-15T15:10:36Z"
+        },
+        {
+            "id": 1920,
+            "area": {
+                "id": 2163,
+                "name": "Netherlands"
+            },
+            "name": "Fortuna Sittard",
+            "shortName": "F Sittard",
+            "tla": "SIT",
+            "crestUrl": null,
+            "address": "Milaanstraat 120 Sittard 6135 LH",
+            "phone": "+31 (046) 4113440",
+            "website": "http://www.fortuna-sittard.nl",
+            "email": "info@fortuna-sittard.nl",
+            "founded": 1968,
+            "clubColors": "Yellow / Green",
+            "venue": "Fortuna Sittard Stadion",
+            "lastUpdated": "2018-10-15T15:10:37Z"
         }
     ]
 }
