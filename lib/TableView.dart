@@ -39,7 +39,7 @@ class TableViewState extends State<TableView> {
                   Center(child: CircularProgressIndicator()),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Text("Please wWait while the data loads..."),
+                    child: Text("Please wait while the data loads..."),
                   )
                 ],
               );
