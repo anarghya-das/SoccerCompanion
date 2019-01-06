@@ -13,7 +13,7 @@ class TableView extends StatefulWidget {
 
 class TableViewState extends State<TableView> {
   String name, title;
-  List<String> _columnNames = ["Pos", "Club", "P", "W", "Pts"];
+  List<String> _columnNames = ["Pos", "Club", "P", "W", "L", "GD", "Pts"];
   TableViewState(this.name, this.title);
   @override
   void initState() {
@@ -36,7 +36,9 @@ class TableViewState extends State<TableView> {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Center(child: Image.asset("logos/football.gif",width: 100,height: 100)),
+                  Center(
+                      child: Image.asset("logos/football.gif",
+                          width: 100, height: 100)),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text("Please wait while the data loads..."),
@@ -49,12 +51,17 @@ class TableViewState extends State<TableView> {
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Center(child: Icon(Icons.face,size: 100,)),
+                    Center(
+                        child: Icon(
+                      Icons.face,
+                      size: 100,
+                    )),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("An error Occured!",style: TextStyle(
-                        fontSize: 30
-                      ),),
+                      child: Text(
+                        "An error Occured!",
+                        style: TextStyle(fontSize: 30),
+                      ),
                     )
                   ],
                 );
@@ -75,10 +82,7 @@ class TableViewState extends State<TableView> {
             .map((String col) => DataColumn(
                   label: Text(
                     col,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 12
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
                   ),
                 ))
             .toList(),
@@ -88,7 +92,9 @@ class TableViewState extends State<TableView> {
                   DataCell(Text(v.split(",")[1])),
                   DataCell(Text(v.split(",")[2])),
                   DataCell(Text(v.split(",")[3])),
-                  DataCell(Text(v.split(",")[4]))
+                  DataCell(Text(v.split(",")[4])),
+                  DataCell(Text(v.split(",")[5])),
+                  DataCell(Text(v.split(",")[6]))
                 ]))
             .toList());
   }
@@ -132,21 +138,22 @@ Future<List<String>> fetch(String name) async {
     'http://api.football-data.org/v2/competitions/$name/standings',
     headers: {"X-Auth-Token": "6278cc4210794f96870c470c190b9c1a"},
   );
-    final response2 = await get(
+  final response2 = await get(
     'http://api.football-data.org/v2/competitions/$name/teams',
     headers: {"X-Auth-Token": "6278cc4210794f96870c470c190b9c1a"},
   );
   final responseJson = json.decode(response.body);
   final responseJson2 = json.decode(response2.body);
   List c = responseJson["standings"][0]["table"];
-  List d=responseJson2["teams"];
-  HashMap<String,String> nameTLA=HashMap();
-  for(var i in d){
-    nameTLA[i["name"]]=i["tla"];
+  List d = responseJson2["teams"];
+  HashMap<String, String> nameTLA = HashMap();
+  for (var i in d) {
+    nameTLA[i["name"]] = i["tla"];
   }
   List<String> logoTeam = List();
   for (var i in c) {
-    String v = "${i['position']},${nameTLA[i['team']['name']]},${i["playedGames"]},${i["won"]},${i["points"]}";
+    String v =
+        "${i['position']},${nameTLA[i['team']['name']]},${i["playedGames"]},${i["won"]},${i["lost"]},${i["goalDifference"]},${i["points"]}";
     logoTeam.add(v);
   }
   return logoTeam;
