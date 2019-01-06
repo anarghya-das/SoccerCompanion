@@ -13,7 +13,7 @@ class TableView extends StatefulWidget {
 
 class TableViewState extends State<TableView> {
   String name, title;
-  List<String> _columnNames = ["Pos", "Club", "P", "W", "L", "GD", "Pts"];
+  List<String> _columnNames = ["Pos", "Club", "P", "W", "L", "D", "GD", "Pts"];
   TableViewState(this.name, this.title);
   @override
   void initState() {
@@ -66,13 +66,53 @@ class TableViewState extends State<TableView> {
                   ],
                 );
               } else {
-                return ListView(
-                    children: <Widget>[createDataTable(context, snapshot)]);
+                return createListTable(context, snapshot);
               }
           }
         },
       ),
     );
+  }
+
+  Widget createListTable(BuildContext context, AsyncSnapshot snapshot) {
+    List<String> val = snapshot.data;
+    return ListView.separated(
+      itemCount: val.length + 1,
+      separatorBuilder: (con, i) => Divider(),
+      itemBuilder: (con, idx) {
+        if (idx == 0) {
+          return ListTile(
+            title: _getTableHeader(_columnNames),
+          );
+        } else {
+          return ListTile(
+              title: Row(
+            children: _getTableRows(val, idx),
+          ));
+        }
+      },
+    );
+  }
+
+  List<Widget> _getTableRows(List<String> val, int idx) {
+    List<Widget> list = new List<Widget>();
+    var length = val[0].split(",").length;
+    for (var i = 0; i < length; i++) {
+      list.add(Expanded(child: Text(val[idx - 1].split(",")[i])));
+    }
+    return list;
+  }
+
+  Widget _getTableHeader(List<String> strings) {
+    List<Widget> list = new List<Widget>();
+    for (var i = 0; i < strings.length; i++) {
+      list.add(Expanded(
+          child: Text(
+        strings[i],
+        style: TextStyle(fontWeight: FontWeight.bold),
+      )));
+    }
+    return Row(children: list);
   }
 
   Widget createDataTable(BuildContext context, AsyncSnapshot snapshot) {
@@ -94,7 +134,8 @@ class TableViewState extends State<TableView> {
                   DataCell(Text(v.split(",")[3])),
                   DataCell(Text(v.split(",")[4])),
                   DataCell(Text(v.split(",")[5])),
-                  DataCell(Text(v.split(",")[6]))
+                  DataCell(Text(v.split(",")[6])),
+                  DataCell(Text(v.split(",")[7]))
                 ]))
             .toList());
   }
@@ -153,7 +194,7 @@ Future<List<String>> fetch(String name) async {
   List<String> logoTeam = List();
   for (var i in c) {
     String v =
-        "${i['position']},${nameTLA[i['team']['name']]},${i["playedGames"]},${i["won"]},${i["lost"]},${i["goalDifference"]},${i["points"]}";
+        "${i['position']},${nameTLA[i['team']['name']]},${i["playedGames"]},${i["won"]},${i["lost"]},${i["draw"]},${i["goalDifference"]},${i["points"]}";
     logoTeam.add(v);
   }
   return logoTeam;
