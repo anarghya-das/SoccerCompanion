@@ -36,7 +36,7 @@ class TableViewState extends State<TableView> {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Center(child: CircularProgressIndicator()),
+                  Center(child: Image.asset("logos/football.gif",width: 100,height: 100)),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text("Please wait while the data loads..."),
