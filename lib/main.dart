@@ -7,7 +7,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       body: HomeScreen(),
-      appBar: AppBar(centerTitle: true, title: Text("Football"),backgroundColor: Colors.black,),
+      appBar: AppBar(centerTitle: true, title: Text("Football Companion"),backgroundColor: Colors.black,),
     ),
   ));
 }

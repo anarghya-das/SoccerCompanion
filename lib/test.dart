@@ -36,15 +36,16 @@ Future<HashMap<String, String>> fetch2(String name) async {
 }
 
 void main() {
-  Future<HashMap> values = fetch2("PL");
+  Future<HashMap> values = fetch2("PD");
   values.then((onValue) {
+    print(onValue);
     var _dir="teams";
     Dio dio = Dio();
     for (var i in onValue.keys) {
       if (onValue[i].contains('svg')) {
-        dio.download(onValue[i], "$_dir/PL/$i.svg");
+        dio.download(onValue[i], "$_dir/$i.svg");
       } else {
-        dio.download(onValue[i], "$_dir/PL/$i.png");
+        dio.download(onValue[i], "$_dir/$i.png");
       }
     }
   });

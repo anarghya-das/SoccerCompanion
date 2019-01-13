@@ -133,6 +133,7 @@ class TableViewState extends State<TableView> {
     }
     return list;
   }
+  
 
   Widget _getTableHeader(List<String> strings) {
     List<Widget> list = new List<Widget>();
